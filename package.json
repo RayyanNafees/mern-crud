@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/Rayyannafees/mern-crud.git"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "keywords": [
     "todo",
     "todo",
