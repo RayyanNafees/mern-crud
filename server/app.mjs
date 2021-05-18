@@ -1,8 +1,8 @@
-import express, {static as _static} from 'express'
+import express from 'express'
 import open from 'open';
 
 var app = express()
-app.use(_static('./client/build/'))
+app.use(express.static('./client/build/'))
 
 app.get('/', (req, res)=> res.render('index.html'))
 
