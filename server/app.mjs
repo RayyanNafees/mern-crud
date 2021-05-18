@@ -6,6 +6,7 @@ app.use(_static('./client/build/'))
 
 app.get('/', (req, res)=> res.render('index.html'))
 
+export default app;
 // app.listen(3000, ()=> {
 //     console.log('Hosting at http://localhost:3000/');
 //     open('http://localhost:3000/');
