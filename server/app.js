@@ -1,7 +1,7 @@
-import express from 'express'
+// import express from 'express'
 // import open from 'open';
 
-// const express = require('express');
+const express = require('express');
 
 var app = express()
 app.use(express.static('./client/build/'))
