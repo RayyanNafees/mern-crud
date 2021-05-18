@@ -1,0 +1,38 @@
+{
+  "name": "todoic",
+  "version": "1.0.0",
+  "description": "A MERN based CRUD app like a todo list ",
+  "main": "./client/build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server/app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayyannafees/mern-crud.git"
+  },
+  "keywords": [
+    "todo",
+    "todo",
+    "list",
+    "to",
+    "do",
+    "app"
+  ],
+  "author": "rayyannafees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayyannafees/mern-crud/issues"
+  },
+  "homepage": "https://github.com/Rayyannafees/mern-crud#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  }
+}
