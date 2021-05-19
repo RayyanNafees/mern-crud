@@ -5,7 +5,7 @@
   "main": "./client/build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node server/app.mjs"
+    "serve": "cd client && npm run build && cd ../ && node server/app.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn":"*"
   }
 }
